@@ -6,6 +6,16 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $word = $_POST["word"];
+    $definition = $_POST["definition"];
+    
+    // Insert the new word and definition into your database
+    // Implement the database connection and insertion logic here.
+}
+?>
+    
     <h1>Dictionary</h1>
     <form id="search-form">
         <input type="text" id="search-input" placeholder="Enter a word">
