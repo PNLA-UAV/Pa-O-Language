@@ -1,0 +1,18 @@
+/* Style your website here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#word-definition {
+    margin-top: 20px;
+}
+
+/* Add more styling as needed */
