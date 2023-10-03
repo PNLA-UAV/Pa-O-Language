@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Dictionary</h1>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter a word">
+        <button type="button" id="search-button">Search</button>
+    </form>
+    
+    <div id="word-definition">
+        <!-- Definition will be displayed here -->
+    </div>
+    
+    <h2>Add a New Word</h2>
+    <form id="add-word-form" action="add_word.php" method="post">
+        <input type="text" name="word" placeholder="Word">
+        <textarea name="definition" placeholder="Definition"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+  </html>
+          
