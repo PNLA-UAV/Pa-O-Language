@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email address where the form data will be sent
-    $to = "khunderan@email.com";
+    $to = "khunderan@gmail.com";
 
     // Subject of the email
     $subject = "New Form Submission";
