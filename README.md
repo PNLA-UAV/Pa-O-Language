@@ -1,2 +1,2 @@
 # Dictionary-test
-https://khunphanduae.github.io/Dictionary-test/
+https://khunphanduae.github.io/Pa-O Language/
